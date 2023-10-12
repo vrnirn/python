@@ -1,0 +1,2 @@
+num = input("Введите число: ")
+print("Неверный ввод" if not num.isalnum() or int(num) <= 0 else f"Двоичное: {bin(int(num))[2:]}, Восьмеричное: {oct(int(num))[2:]}, Шестнадцатеричное: {hex(int(num))[2:]}")
